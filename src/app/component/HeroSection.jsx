@@ -3,9 +3,9 @@ import { FaEyeSlash } from "react-icons/fa";
 
 const HeroSection = () => {
     return (
-        <div className=" flex flex-col md:flex-row items-center justify-between bg-gray-50 px-6 py-10 md:px-20">
+        <div className=" flex flex-col  lg:flex-row items-center justify-between bg-gray-50 px-6 py-10 md:px-20">
             {/* Left Side: Description */}
-            <div className="space-y-6 text-center md:text-left w-full md:w-[55%]">
+            <div className="space-y-6 text-center md:text-left w-full lg:w-[55%]">
                 <h1 className="text-3xl pb-5 italic md:text-5xl font-bold text-gray-800">
                     Explore your <span className="text-blue-500">hobby</span> or{" "}
                     <span className="text-purple-500">passion</span>
@@ -34,7 +34,7 @@ const HeroSection = () => {
             </div>
 
             {/* Right Side: Sign-In Form */}
-            <div className=" mt-10 md:mt-0  md:p-8  rounded-md w-full max-w-full md:max-w-md ">
+            <div className=" mt-10 lg:mt-0  lg:p-8  rounded-md w-full max-w-full lg:max-w-md ">
                 <div className="flex md:justify-normal justify-center gap-5 font-bold text-xl pb-2 mb-4">
                     <button className="text-purple-500 font-semibold border-b-2 border-purple-500">
                         Sign In
